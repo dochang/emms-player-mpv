@@ -1,8 +1,9 @@
 ;;; emms-player-mpv.el --- mpv support for EMMS
 
-;; Copyright (C) 2013 Desmond O. Chang
+;; Copyright (C) 2013, 2014, 2015 ZHANG Weiyi, Alex Kost
 
-;; Authors: Desmond O. Chang <dochang@gmail.com>
+;; Authors: ZHANG Weiyi <dochang@gmail.com>,
+;;          Alex Kost <alezost@gmail.com>
 
 ;; This program is free software: you can redistribute it and/or modify it
 ;; under the terms of the GNU General Public License as published by the Free
