@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.0.3 - 2015-04-12 ##
+
 ### Changed ###
 
   - Rename variable `emms-mpv-input-file` to `emms-player-mpv-input-file`.
