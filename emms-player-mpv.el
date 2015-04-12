@@ -86,24 +86,31 @@
 		 'seek-to
 		 'emms-player-mpv-seek-to)
 
+(defun emms-player-mpv--format-command (fmt &rest args)
+  "Generate shell command to control mpv."
+  (let ((mpv-cmd (apply 'format fmt args)))
+    (format "echo %s > %s"
+            (shell-quote-argument mpv-cmd)
+            (shell-quote-argument emms-mpv-input-file))))
+
 (defun emms-player-mpv-pause ()
   "Depends on mpv's --input-file option."
-  (let ((cmd (format "echo 'set pause yes' > %s" emms-mpv-input-file)))
+  (let ((cmd (emms-player-mpv--format-command "set pause yes")))
     (call-process-shell-command cmd nil nil nil)))
 
 (defun emms-player-mpv-resume ()
   "Depends on mpv's --input-file option."
-  (let ((cmd (format "echo 'set pause no' > %s" emms-mpv-input-file)))
+  (let ((cmd (emms-player-mpv--format-command "set pause no")))
     (call-process-shell-command cmd nil nil nil)))
 
 (defun emms-player-mpv-seek (sec)
   "Depends on mpv's --input-file option."
-  (let ((cmd (format "echo 'seek %d' > %s" sec emms-mpv-input-file)))
+  (let ((cmd (emms-player-mpv--format-command "seek %d" sec)))
     (call-process-shell-command cmd nil nil nil)))
 
 (defun emms-player-mpv-seek-to (sec)
   "Depends on mpv's --input-file option."
-  (let ((cmd (format "echo 'seek %d absolute' > %s" sec emms-mpv-input-file)))
+  (let ((cmd (emms-player-mpv--format-command "seek %d absolute" sec)))
     (call-process-shell-command cmd nil nil nil)))
 
 (provide 'emms-player-mpv)
