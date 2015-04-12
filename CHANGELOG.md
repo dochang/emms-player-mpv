@@ -2,6 +2,11 @@
 
 ## Unreleased ##
 
+### Changed ###
+
+  - Rename variable `emms-mpv-input-file` to `emms-player-mpv-input-file`.
+    This incompatible renaming follows Emacs coding conventions.
+
 ### Fixed ###
 
   - Quote shell arguments.

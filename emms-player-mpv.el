@@ -36,7 +36,7 @@
 (require 'emms-compat)
 (require 'emms-player-simple)
 
-(defcustom emms-mpv-input-file
+(defcustom emms-player-mpv-input-file
   (expand-file-name (locate-user-emacs-file "emms-mpv-input-file"))
   "The file to send command to mpv."
   :type 'file
