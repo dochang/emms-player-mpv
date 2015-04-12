@@ -52,9 +52,9 @@
   "mpv" "--quiet" "--really-quiet")
 
 (defadvice emms-player-mpv-start (around append-arguments activate)
-  (unless (file-exists-p emms-mpv-input-file)
-    (call-process "mkfifo" nil nil nil emms-mpv-input-file))
-  (let* ((input-file (format "--input-file=%s" emms-mpv-input-file))
+  (unless (file-exists-p emms-player-mpv-input-file)
+    (call-process "mkfifo" nil nil nil emms-player-mpv-input-file))
+  (let* ((input-file (format "--input-file=%s" emms-player-mpv-input-file))
          (track-arg (let* ((track (ad-get-arg 0))
                        (track-type (emms-track-get track 'type))
                        (track-name (emms-track-name track)))
@@ -91,7 +91,7 @@
   (let ((mpv-cmd (apply 'format fmt args)))
     (format "echo %s > %s"
             (shell-quote-argument mpv-cmd)
-            (shell-quote-argument emms-mpv-input-file))))
+            (shell-quote-argument emms-player-mpv-input-file))))
 
 (defun emms-player-mpv-pause ()
   "Depends on mpv's --input-file option."
