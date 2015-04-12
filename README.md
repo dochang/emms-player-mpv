@@ -14,7 +14,9 @@ This library is based on `emms-player-mplayer.el' in EMMS.
 Installation
 ------------
 
-Put `emms-player-mpv.el` in your load path.
+This library is available on MELPA and el-get as `emms-player-mpv`.
+
+Otherwise, download `emms-player-mpv.el` and put it in your load path.
 
 Usage
 -----
