@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.0.4 - 2015-04-12 ##
+
 ### Fixed ###
 
   - Renaming variables.
