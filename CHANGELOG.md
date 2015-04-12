@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.0.5 - 2015-04-13 ##
+
 ### Added ###
 
   - Add installation method in README.
