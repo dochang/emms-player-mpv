@@ -49,7 +49,7 @@
            "mov" "avi" "divx" "ogm" "ogv" "asf" "mkv"
            "rm" "rmvb" "mp4" "flac" "vob" "m4a" "ape"
            "flv" "webm"))
-  "mpv" "--quiet" "--really-quiet")
+  "mpv" "--quiet" "--really-quiet" "--no-video" "--vo=null")
 
 (defadvice emms-player-mpv-start (around append-arguments activate)
   (unless (file-exists-p emms-player-mpv-input-file)
