@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.0.6 - 2015-08-03 ##
+
 ### Added ###
 
   - Badges in README.
