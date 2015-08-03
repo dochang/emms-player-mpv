@@ -1,6 +1,9 @@
 emms-player-mpv.el --- mpv support for EMMS
 ===========================================
 
+[![MELPA](http://melpa.org/packages/emms-player-mpv-badge.svg)](http://melpa.org/#/emms-player-mpv)
+[![MELPA Stable](http://stable.melpa.org/packages/emms-player-mpv-badge.svg)](http://stable.melpa.org/#/emms-player-mpv)
+
 This library provides a player that uses [mpv] for [EMMS].  It
 supports pause and seeking.  For loading subtitles automatically, try
 adding `autosub-match=fuzzy` to your `~/.mpv/config`, see mpv manual
