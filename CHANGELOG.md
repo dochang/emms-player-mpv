@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.0.7 - 2015-12-08 ##
+
 ### Added ###
 
   - Issue Stats badges in README.
