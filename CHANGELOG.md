@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.0.8 - 2016-03-19 ##
+
 ### Changed ###
 
   - Switch to IsItMaintained badges.
