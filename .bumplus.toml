@@ -1,0 +1,15 @@
+version = '0.0.8'
+
+[[files."CHANGELOG.md"]]
+search = '''
+## Unreleased ##
+'''
+replace = '''
+## Unreleased ##
+
+## {{new_version}} - {{utcnow | strftime('%Y-%m-%d')}} ##
+'''
+
+[[files."emms-player-mpv.el"]]
+search = '{{old_version}}'
+replace = '{{new_version}}'
