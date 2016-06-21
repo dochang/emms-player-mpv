@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.0.9 - 2016-06-21 ##
+
 ### Added ###
 
   - Add bumplus config.
