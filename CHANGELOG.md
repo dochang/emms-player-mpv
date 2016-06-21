@@ -6,6 +6,10 @@
 
   - Add bumplus config.
 
+### Changed ###
+
+  - Update copyright info.
+
 ## 0.0.8 - 2016-03-19 ##
 
 ### Changed ###

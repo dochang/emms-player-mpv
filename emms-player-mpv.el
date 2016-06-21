@@ -1,6 +1,7 @@
 ;;; emms-player-mpv.el --- mpv support for EMMS
 
-;; Copyright (C) 2013, 2014, 2015 ZHANG Weiyi, Alex Kost
+;; Copyright (C) 2013-2016 ZHANG Weiyi
+;; Copyright (C) 2014 Alex Kost
 
 ;; Authors: ZHANG Weiyi <dochang@gmail.com>,
 ;;          Alex Kost <alezost@gmail.com>
