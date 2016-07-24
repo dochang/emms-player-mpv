@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.0.10 - 2016-07-24 ##
+
 ### Added ###
 
   - Add code of conduct
