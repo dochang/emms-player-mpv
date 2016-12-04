@@ -49,7 +49,8 @@
            "ogg" "mp3" "wav" "mpg" "mpeg" "wmv" "wma"
            "mov" "avi" "divx" "ogm" "ogv" "asf" "mkv"
            "rm" "rmvb" "mp4" "flac" "vob" "m4a" "ape"
-           "flv" "webm"))
+           "flv" "webm" "m4b" "m4p" "m4v" "m4r" "3gp"
+           "aac"))
   "mpv" "--quiet" "--really-quiet")
 
 (defadvice emms-player-mpv-start (around append-arguments activate)

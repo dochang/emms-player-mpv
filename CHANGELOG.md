@@ -2,6 +2,10 @@
 
 ## Unreleased ##
 
+### Added ###
+
+  - Add file extensions for AAC
+
 ## 0.0.10 - 2016-07-24 ##
 
 ### Added ###
