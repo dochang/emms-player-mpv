@@ -7,7 +7,7 @@
 ;;          Alex Kost <alezost@gmail.com>
 ;; Version: 0.0.11
 ;; Package-Requires: ((emms "0"))
-;; Keywords: emms, mpv
+;; Keywords: multimedia, emms, mpv
 ;; URL: https://github.com/dochang/emms-player-mpv/
 
 ;; This program is free software: you can redistribute it and/or modify it
@@ -25,8 +25,8 @@
 
 ;;; Commentary:
 
-;; This provides a player that uses mpv. It supports pause and
-;; seeking. For loading subtitles automatically, try adding
+;; This provides a player that uses mpv.  It supports pause and
+;; seeking.  For loading subtitles automatically, try adding
 ;; "autosub-match=fuzzy" to your `~/.mpv/config', see mpv manual for
 ;; more.
 ;;

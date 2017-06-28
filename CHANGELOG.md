@@ -2,6 +2,10 @@
 
 ## Unreleased ##
 
+### Fixed ###
+
+  - Fix package warnings.
+
 ## 0.0.11 - 2016-12-04 ##
 
 ### Added ###
