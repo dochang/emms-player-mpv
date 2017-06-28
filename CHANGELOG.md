@@ -2,6 +2,10 @@
 
 ## Unreleased ##
 
+### Added ###
+
+  - Add FAQ in README.
+
 ### Fixed ###
 
   - Fix package warnings.
