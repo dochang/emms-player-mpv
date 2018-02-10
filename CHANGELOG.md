@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.0.13 - 2018-02-10 ##
+
 ### Added ###
 
   - Add https support.
