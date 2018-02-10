@@ -1,10 +1,12 @@
 ;;; emms-player-mpv.el --- mpv support for EMMS
 
-;; Copyright (C) 2013-2016 ZHANG Weiyi
+;; Copyright (C) 2013-2018 ZHANG Weiyi
 ;; Copyright (C) 2014 Alex Kost
+;; Copyright (C) 2018 stardiviner <numbchild@gmail.com>
 
 ;; Authors: ZHANG Weiyi <dochang@gmail.com>,
-;;          Alex Kost <alezost@gmail.com>
+;;          Alex Kost <alezost@gmail.com>,
+;;          stardiviner <numbchild@gmail.com>
 ;; Version: 0.0.12
 ;; Package-Requires: ((emms "0"))
 ;; Keywords: multimedia, emms, mpv

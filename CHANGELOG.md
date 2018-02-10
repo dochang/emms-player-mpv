@@ -6,6 +6,10 @@
 
   - Add https support.
 
+### Changed ###
+
+  - Update copyright info.
+
 ## 0.0.12 - 2017-06-28 ##
 
 ### Added ###
