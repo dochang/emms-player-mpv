@@ -42,7 +42,7 @@
   :group 'emms)
 
 (define-emms-simple-player mpv '(file url streamlist playlist)
-  (concat "\\`\\(http\\|mms\\)://\\|"
+  (concat "\\`\\(http\\(s\\)?\\|mms\\)://\\|"
           (emms-player-simple-regexp
            "ogg" "mp3" "wav" "mpg" "mpeg" "wmv" "wma"
            "mov" "avi" "divx" "ogm" "ogv" "asf" "mkv"
