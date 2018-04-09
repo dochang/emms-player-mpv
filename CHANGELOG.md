@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.1.0 - 2018-04-09 ##
+
 ### Changed ###
 
   - Use `emms-player-base-format-list`.
