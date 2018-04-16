@@ -1,3 +1,22 @@
+WARNING
+=======
+
+This package will be merged into [EMMS].  It'll be deprecated and removed from MELPA and el-get.
+
+How to migrate
+--------------
+
+ 1. Delete this package from Emacs.
+ 2. You don't need `(require 'emms-player-mpv)` any more, `(require 'emms)` will do that for you.
+ 3. EMMS has put mpv in its default player list, but you can still customize `emms-player-list`.
+
+NOTE
+----
+
+This project won't accept bug reports, feature requests or any other issues any more.  Please send them to [the EMMS mailing list][1].
+
+[1]: https://lists.gnu.org/mailman/listinfo/emms-help
+
 emms-player-mpv.el --- mpv support for EMMS
 ===========================================
 
