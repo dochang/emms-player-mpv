@@ -2,6 +2,8 @@
 
 ## Unreleased ##
 
+## 0.2.0 - 2018-05-03 ##
+
 ### Added ###
 
   - Add deprecation warning.

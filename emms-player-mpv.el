@@ -7,7 +7,7 @@
 ;; Authors: ZHANG Weiyi <dochang@gmail.com>,
 ;;          Alex Kost <alezost@gmail.com>,
 ;;          stardiviner <numbchild@gmail.com>
-;; Version: 0.1.0
+;; Version: 0.2.0
 ;; Package-Requires: ((emms "0"))
 ;; Keywords: multimedia, emms, mpv
 ;; URL: https://github.com/dochang/emms-player-mpv/
