@@ -115,7 +115,7 @@
 ;; Display deprecation warning
 (mapc (lambda (msg)
         (display-warning '(emms emms-player-mpv) msg))
-      '("emms-player-mpv will be merged into EMMS."
+      '("emms-player-mpv has been merged into EMMS."
         "Please delete the emms-player-mpv package."
         "See https://github.com/dochang/emms-player-mpv for details."))
 

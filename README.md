@@ -1,7 +1,7 @@
 WARNING
 =======
 
-This package will be merged into [EMMS].  It'll be deprecated and removed from MELPA and el-get.
+This package has been merged into [EMMS].  It'll be deprecated and removed from MELPA and el-get.
 
 How to migrate
 --------------
